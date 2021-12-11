@@ -1,0 +1,1 @@
+(()=>{var e=new Swiper(".mySwiper",{slidesPerView:5,spaceBetween:10,loop:!0,navigation:{nextEl:".arrow-right",prevEl:".arrow-left"},breakpoints:{320:{slidesPerView:2,spaceBetween:5},768:{slidesPerView:4,spaceBetween:10},1024:{slidesPerView:5,spaceBetween:10}},pagination:{el:".pagination",clickable:!0}});})();

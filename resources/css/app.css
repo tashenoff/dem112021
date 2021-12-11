@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "navbar.css";
+@import "icons.css";
+@import "card.css";
+@import "banner.css";
+@import "button.css";
+@import "custom.css";
+@import "input.css";
+
+.alignwide{
+    @apply m-0;
+}

@@ -1,0 +1,16 @@
+
+.card{
+    @apply overflow-hidden rounded-lg border border-primary border-opacity-20;
+}
+
+.card-body{
+    @apply px-6 py-4 flex flex-col items-center;
+}
+
+.card-title{
+    @apply mb-3 font-bold;
+}
+
+.card-content{
+    @apply leading-normal text-primary text-opacity-90;
+}

@@ -1,0 +1,26 @@
+.navbar{
+    @apply w-full z-50 border border-primary;
+}
+
+
+.navbar-wrap{
+    @apply w-full flex items-center justify-between;
+}
+
+.navbar-wrap__item{
+    @apply lg:flex items-center relative w-full;
+}
+
+
+
+.navbar-menu{
+    @apply lg:flex flex-1 lg:bg-transparent lg:static absolute top-16 left-0 z-50 w-full ;
+}
+
+.navbar-menu__item{
+    @apply  lg:border-none border border-white border-opacity-5;
+}
+
+.navbar-menu__link{
+    @apply p-5 block  font-medium;
+}

@@ -1,0 +1,30 @@
+
+.icon{
+    @apply rounded-full p-1 flex items-center justify-center;
+}
+
+.icon-lg{
+    @apply w-14 h-14
+}
+
+.icon-sm{
+    @apply  lg:w-14 w-10 lg:h-14 h-10;
+}
+
+.icon-primary{
+    @apply bg-primary text-white;
+}
+
+
+.icon-outline{
+    @apply bg-none;
+}
+
+.icon-transparent{
+    @apply bg-none;
+}
+
+.icon-hero{
+    @apply absolute z-30 bottom-10 border border-white border-opacity-20;
+
+}

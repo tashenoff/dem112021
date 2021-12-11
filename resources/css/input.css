@@ -1,0 +1,23 @@
+
+.input-lg{
+    @apply w-full h-12 px-4 mb-2 text-lg text-primary text-opacity-60 placeholder-primary placeholder-opacity-90 border rounded-lg focus:outline-none;
+}
+.label-input{
+    @apply block mb-1
+}
+
+.form-group{
+    @apply flex flex-col;
+}
+
+.form-block{
+    @applyflex flex-col overflow-hidden;
+}
+
+.form-header{
+    @apply pb-5;
+}
+
+.form-footer{
+    @apply py-5;
+}

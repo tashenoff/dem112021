@@ -1,0 +1,13 @@
+
+.banner-hero{
+    @apply relative lg:h-screen/2 h-screen;
+}
+
+.banner{
+    @apply flex flex-col justify-center items-start;
+}
+
+
+
+.banner-wrap{
+    @apply relative w-full h-full}

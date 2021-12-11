@@ -1,0 +1,24 @@
+
+.btn{
+    @apply font-bold rounded-lg cursor-pointer focus:outline-none text-white transition-colors duration-150;
+}
+
+.btn-primary{
+    @apply bg-primary hover:bg-opacity-90;
+}
+
+.btn-secondary{
+    @apply bg-secondary hover:bg-opacity-90;
+}
+
+.btn-lg{
+    @apply h-12 px-6 text-lg;
+}
+
+.btn-regular{
+    @apply h-10 px-5 m-2;
+}
+
+.btn-modal{
+    @apply h-10 px-5;
+}
